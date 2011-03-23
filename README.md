@@ -1,0 +1,1 @@
+Česká šablona stránky html5.
