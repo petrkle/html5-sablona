@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://example.cz/xml.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<language>cs</language>
+<title>Test RSS</title>
+<atom:link href="http://example.cz/example.xml" rel="self" type="application/rss+xml" />
+<link>http://example.cz/</link>
+<description>Testovací RSS</description>
+<copyright>example.cz</copyright>
+<image>
+<url>http://example.cz/logo.png</url>
+<title>Testovací RSS kanál</title>
+<link>http://example.cz/tip/</link>
+</image>
+
+<item>
+<title>Nějaká událost</title>
+<link>http://example.cz/kalendar/1374781742.html</link>
+<dc:creator>pek</dc:creator>
+<description>
+<![CDATA[
+<p>
+<div style="float:left;margin:0 5px;">
+<img src="http://example.cz/example.png" width="200" height="150" />
+</div>
+<br clear="both" />
+Nějaká událost
+</p>
+]]>
+</description>
+<pubDate>Mon, 05 Aug 2013 05:00:00 +0200</pubDate>
+<guid>http://example.cz/kalendar/1374781742.html</guid>
+</item>
+</channel></rss>

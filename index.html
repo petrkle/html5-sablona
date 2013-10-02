@@ -3,13 +3,23 @@
 <head>
 <meta charset="utf-8" />
     <title>HTML5 šablona</title>
-    <link rel="stylesheet" href="styl.css" type="text/css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="s.css" />
+    <link rel="stylesheet" media="screen and (min-width: 600px)" type="text/css" href="styl.css" />
+<!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="styl.css">
+<![endif]-->
     <meta name="description" content="HTML5 šablona" />
     <meta name="keywords" content="šablona, html5" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width" />
     <link rel="apple-touch-icon" href="http://example.com/icon-32.png" /> 
     <link rel="apple-touch-icon-precomposed" href="http://example.com/icon-32.png" /> 
+    <link rel="image_src" href="icon.png" />
+    <link rel="previewimage" href="icon.png" />
+    <link rel="alternate" title="RSS kanál" href="priklad.rss" type="application/rss+xml" />
 </head>
 <body>
     <h1>Šablona</h1>
+		<p>Jednoduchá <a href="." title="odkaz">šablona</a>.</p>
 </body>
 </html>
